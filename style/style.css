@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    
+    font-family: "Inter", sans-serif;
+    
+}
+body {
+    background-color: #e5e5e5; 
+}
+.logo {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+.cabecalho2 {
+    padding: 2% 0% 0% 25%;
+}
+.cabecalho_texto {
+    display: flex;
+    text-align: center;
+    padding: 0% 0% 0% 6%;
+    color: rgba(10, 56, 113, 1);
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    text-align: center;
+}
+.cabecalho__menu__link {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.apresentacao{
+    padding: 2% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.apresentacao__conteudo{
+    margin: 0% 5%;
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+.apresentacao__conteudo__texto {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo__texto2 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+}
+
+    
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: "Inter", sans-serif;
+    color: rgba(10, 56, 113, 1);
+    background-color: rgba(216, 223, 232, 1);
+    height: 30px;
+    border: 1px solid  rgba(10, 56, 113, 1);
+    border-radius: 24px;
+    cursor: pointer;
+    size: 16px;
+}
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
+
+.text-area {
+    border: none;
+    color: rgba(10, 56, 113, 1);
+    margin-top: 40px;
+    text-transform: lowercase;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+::placeholder { color: rgba(10, 56, 113, 1);}
+    .text-area:focus {
+        outline: none;
+        
+    }
+
+.section2 {
+    margin-top: 0px;
+}
+.mensagem {
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: rgba(10, 56, 113, 1);
+    margin-left: 98px;
+    padding-left: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+}
+.mensagem:focus {
+    outline: none;
+}
+.botoes {
+    display: flex;
+    margin-top: 10px;
+}
+
+.container_botoes_botao-1 {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(10, 56, 113, 1);
+    width: 328px;
+    height: 67px;
+    text-align: center;
+    border: 1px solid  rgba(10, 56, 113, 1);
+    border-radius: 24px;
+    cursor: pointer;
+    size: 16px;
+}
+
+.container_botoes_botao-2 {
+    color: rgba(10, 56, 113, 1);
+    background-color: rgba(216, 223, 232, 1);
+    width: 328px;
+    height: 67px;
+    text-align: center;
+    border: 1px solid  rgba(10, 56, 113, 1);
+    border-radius: 24px;
+    cursor: pointer;
+    size: 16px;
+}
+.botoes_copiar {
+    color: rgba(10, 56, 113, 1);
+    background-color: rgba(216, 223, 232, 1);
+    width: 336px;
+    height: 67px;
+    text-align: center;
+    border: 1px solid  rgba(10, 56, 113, 1);
+    border-radius: 24px;
+    cursor: pointer;
+    size: 16px;
+    margin-left: 108px;
+    /* margin-top: 0px; */
+    /* position: absolute; */
+    
+}
+
+.container_exclamação {
+    color: rgba(73, 80, 87, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.rodape {
+    color: white;
+    font-size: 16px;
+    background-color:  rgba(10, 56, 113, 1);
+    padding: 5px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.rodape_about {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color:  rgba(10, 56, 113, 1);
+}

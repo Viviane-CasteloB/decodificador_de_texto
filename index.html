@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="/Style/style.css">
+       
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./img/Vector.jpg" width="31.09px" height="48px" alt="Logo da Alura">
+        <h1 class="cabecalho_texto">Digite o texto que você deseja criptografar</h1>
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite o seu texto"></textarea>
+            <div>
+                <h6 class="container_exclamação"> <img src="./img/Vector (1).jpg" alt="simbolo exclamação">Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                  
+                    <button class="container_botoes_botao-1" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="container_botoes_botao-2" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section class="section2">
+            <textarea class="mensagem" id="textToCopy" cols="20" rows="10"></textarea>
+            <button class="botoes_copiar" onclick="copyText()">Copiar</button>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Viviane Castelo Branco</p>
+        <nav>
+            <a class="rodape_about" href="/about.html">Quem sou eu?</a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
+
+
